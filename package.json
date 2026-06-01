@@ -1,7 +1,7 @@
 {
   "name": "la-passion",
   "version": "0.1.0",
-  "homepage": "https://hazardbyte.github.io/la-passion",
+  "homepage": "https://Hazardbyte.github.io/la-passion",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
