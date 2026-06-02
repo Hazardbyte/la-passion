@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import charmanderGif from "./charmander-blink.gif";
+import charmanderGif from "./Assets/charmander-blink.gif";
 import "./App.css";
 
 function App() {
@@ -7,9 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={charmanderGif} className="Charmander-logo" alt="Charmander" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Puedemos quemar un tarde juntos?</p>
         <a
           className="App-link"
           href="https://reactjs.org"
