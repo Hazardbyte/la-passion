@@ -2,32 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .Charmander {
-    height: 20vmin;
-    width: 20vmin;
+    width: 20vw; /* 20% of viewport width */
+    max-width: 150px; /* but never bigger than this */
+    min-width: 60px; /* and never smaller than this */
     transform: rotateY(180deg);
   }
 
   .Squirtle {
-    height: 20vmin;
-    width: 20vmin;
+    width: 20vw; /* 20% of viewport width */
+    max-width: 150px; /* but never bigger than this */
+    min-width: 60px; /* and never smaller than this */
   }
 }
 
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
+.App-header .main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(20px, 5vw, 120px);
+  position: relative;
 }
 
 .App-header {

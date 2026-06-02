@@ -7,29 +7,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "150px",
-            position: "relative",
-          }}
-        >
-          <img
-            src={charmanderGif}
-            className="Charmander"
-            alt="Charmander"
-            position="absolute"
-          />
+        <div className="main-container">
+          <img src={charmanderGif} className="Charmander" alt="Charmander" />
           <CampfireAnimation />
-          <img
-            src={squirtleGif}
-            className="Squirtle"
-            alt="Squirtle"
-            position="absolute"
-          />
+          <img src={squirtleGif} className="Squirtle" alt="Squirtle" />
         </div>
 
         <p>Puedemos quemar una tarde juntos?</p>
