@@ -1,25 +1,25 @@
-import styles from "./Campfire.module.css";
-import React, { useState } from "react";
+import styles from "./campfire.module.css";
+import React, { useState, useEffect } from "react";
 
 const frames = [
-  "Assets/Campfire/Campfire0.png",
-  "Assets/Campfire/Campfire1.png",
-  "Assets/Campfire/Campfire2.png",
-  "Assets/Campfire/Campfire3.png",
-  "Assets/Campfire/Campfire4.png",
-  "Assets/Campfire/Campfire5.png",
-  "Assets/Campfire/Campfire6.png",
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire0.png`,
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire1.png`,
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire2.png`,
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire3.png`,
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire4.png`,
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire5.png`,
+  `${process.env.PUBLIC_URL}/assets/Campfire/Campfire6.png`,
 ];
 
 export default function CampfireAnimation() {
   const [currentFrame, setCurrentFrame] = useState(0);
 
-  React.useEffect(() => {
-    const interval = setInterval(() => {
+  useEffect(() => {
+    const timer = setInterval(() => {
       setCurrentFrame((prevFrame) => (prevFrame + 1) % frames.length);
-    }, 125); // Cambia el frame cada 125ms
+    }, 125); // Cambia el frame cada 1000ms
 
-    return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+    return () => clearInterval(timer); // Limpia el intervalo al desmontar el componente
   }, []);
 
   return (

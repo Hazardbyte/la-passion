@@ -7,6 +7,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={charmanderGif} className="Charmander-logo" alt="Charmander" />
+
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+
         <div
           style={{
             width: "100%",
@@ -17,15 +27,8 @@ function App() {
         >
           <CampfireAnimation />
         </div>
-        <p>Puedemos quemar un tarde juntos?</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <p>Puedemos quemar una tarde juntos?</p>
       </header>
     </div>
   );
