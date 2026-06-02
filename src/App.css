@@ -8,9 +8,16 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  /* .Charmander-logo {
-    animation: bounce 1s ease-in-out infinite;
-  } */
+  .Charmander {
+    height: 20vmin;
+    width: 20vmin;
+    transform: rotateY(180deg);
+  }
+
+  .Squirtle {
+    height: 20vmin;
+    width: 20vmin;
+  }
 }
 
 @keyframes bounce {
