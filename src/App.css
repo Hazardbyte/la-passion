@@ -8,9 +8,9 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Charmander-logo {
+  /* .Charmander-logo {
     animation: bounce 1s ease-in-out infinite;
-  }
+  } */
 }
 
 @keyframes bounce {
