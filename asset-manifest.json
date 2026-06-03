@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/la-passion/static/css/main.d40d7ae1.css",
-    "main.js": "/la-passion/static/js/main.675f1d33.js",
+    "main.css": "/la-passion/static/css/main.88430610.css",
+    "main.js": "/la-passion/static/js/main.d0d21f0a.js",
     "static/js/453.9493f0a8.chunk.js": "/la-passion/static/js/453.9493f0a8.chunk.js",
     "static/media/squirtle-jumping.gif": "/la-passion/static/media/squirtle-jumping.bfbe984d8baed8f57322.gif",
     "static/media/charmander-blink.gif": "/la-passion/static/media/charmander-blink.8a9e520e9336865b5219.gif",
     "index.html": "/la-passion/index.html",
-    "main.d40d7ae1.css.map": "/la-passion/static/css/main.d40d7ae1.css.map",
-    "main.675f1d33.js.map": "/la-passion/static/js/main.675f1d33.js.map",
+    "main.88430610.css.map": "/la-passion/static/css/main.88430610.css.map",
+    "main.d0d21f0a.js.map": "/la-passion/static/js/main.d0d21f0a.js.map",
     "453.9493f0a8.chunk.js.map": "/la-passion/static/js/453.9493f0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d40d7ae1.css",
-    "static/js/main.675f1d33.js"
+    "static/css/main.88430610.css",
+    "static/js/main.d0d21f0a.js"
   ]
 }
