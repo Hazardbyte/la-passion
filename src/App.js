@@ -13,11 +13,7 @@ function App() {
           <img src={squirtleGif} className="Squirtle" alt="Squirtle" />
         </div>
 
-        <p>Puedemos quemar una tarde juntos?</p>
-        <div className="container">
-          <button type="button">Quemar</button>{" "}
-          <button type="button">Apagar</button>
-        </div>
+        <p>Can we meet up some time at the park?</p>
       </header>
     </div>
   );
