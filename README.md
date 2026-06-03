@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Creating Personalized Web Invites
 
-Let us get something out of the degree I won't use anymore.
+Trying to brisge the gap between human relations in a digital world.
